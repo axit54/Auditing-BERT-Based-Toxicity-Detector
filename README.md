@@ -18,6 +18,8 @@
 ● Fine-tune a pre-trained BERT model for binary toxicity prediction.
 ● Evaluate using AUC-based metrics over different subgroups.
 ```
+<img src="https://github.com/axit54/Auditing-BERT-Based-Toxicity-Detector/blob/main/images/model_arch.png">
+<img src="https://github.com/axit54/Auditing-BERT-Based-Toxicity-Detector/blob/main/images/distribution.png">
 
 
 ## Results on Test Set
@@ -27,8 +29,11 @@
 ● Fewer data and more societally targeted groups have lower performance.
 ● Performance across groups is relatively stable.
 ```
+<img src="https://github.com/axit54/Auditing-BERT-Based-Toxicity-Detector/blob/main/images/results.png">
+
 
 ## SHAP Local Analysis: Don’t Say Gay?
+<img src="https://github.com/axit54/Auditing-BERT-Based-Toxicity-Detector/blob/main/images/shap.png">
 
 
 ## Conclusion
